@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="icon" type="image/svg+xml" href="./assets/icon-neuverse.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Adi rifin</title>
+</head>
+
+<body>
+    <h1>Profil Saya</h1>
+    <div class="my-profile">
+        <img src="./assets/adi-foto.JPG" alt="foto Adi">
+        <p>
+            Selamat datang di halaman profil saya. Saya adalah seorang web developer yang sedang belajar dan berkembang
+        </p>
+    </div>
+
+    <h2>Pendidikan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tingkat</th>
+                <th>Instansi</th>
+                <th>Jurusan</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>S1</td>
+                <td>Universitas Amikom Yogyalkarta</td>
+                <td>Informatika</td>
+            </tr>
+            <tr>
+                <td>SMA</td>
+                <td>SMA NEGERI 4 JAYAPURA</td>
+                <td>MIPA</td>
+            </tr>
+        </tbody>
+
+    </table>
+    <h2>Portfolio</h2>
+    <div class="protfolio">
+        <ol>
+            <li>Website Focusmate</li>
+            <li>Website Landing Page Vapeshop ANT</li>
+            <li>Bookshelf App - Dicoding</li>
+        </ol>
+        <a href="./pages/portfolio.html">Lihat detail Portfolio</a>
+    </div>
+
+    <h2>Kontak saya</h2>
+    <div class="contact-me">
+        <!-- form input -->
+        <form>
+            <div class="question-profile">
+                <label for="name">Nama: </label>
+                <input style="height: 1.75rem;" type="text" name="name" id="name" placeholder="Masukkan nama anda">
+                <br>
+                <label for="email">Email: </label>
+                <input style="height: 1.75rem;" type="email" name="email" id="email" placeholder="Masukkan email anda">
+                <br>
+                <label for="message">Pesan: </label>
+                <textarea name="message" id="message" cols="20" rows="10" placeholder="Masukkan pesan anda"></textarea>
+            </div>
+            <div class="category">
+
+                <label for="category">Kategori: </label>
+                <select id="category" name="category">
+                    <option value="Umum">Umum</option>
+                    <option value="Kerjasama">Kerjasama</option>
+                    <option value="Pertanyaan">Pertanyaan</option>
+
+                </select>
+            </div>
+
+
+            <div class="gender">
+                <p>Jenis Kelamin: </p>
+
+                <input type="radio" id="laki" name="jns_kelamin" value="Laki-Laki">
+                <label for="laki">Laki-Laki</label><br>
+                <input type="radio" id="perempuan" name="jns_kelamin" value="Perempuan">
+                <label for="perempuan">Perempuan</label><br>
+
+            </div>
+
+            <div class="fav_lang">
+                <p>Pilih Bahasa Pemrograman Favorit: </p>
+                <input type="checkbox" id="java" name="fav_lang" value="JAVA">
+                <label for="Java">Java</label><br>
+                <input type="checkbox" id="phyton" name="fav_lang" value="PHYTON">
+                <label for="phyton">Phyton</label><br>
+                <input type="checkbox" id="javascript" name="fav_lang" value="JAVASCRIPT">
+                <label for="javascript">Javascript</label><br>
+            </div>
+
+
+            <button style="margin-top: 1rem;" type="submit">Kirim Pesan</button>
+        </form>
+
+        <footer>
+            <p>
+                &copy; 2024 - Adi Arifin | <a href="#">Linkedin</a>
+
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
