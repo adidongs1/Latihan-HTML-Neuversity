@@ -1,0 +1,11 @@
+.my-profile img{
+    width: 18rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.contact-me form {
+    display: flex;
+    flex-direction: column;
+   width: 18rem;
+}
